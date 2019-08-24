@@ -1,19 +1,42 @@
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-weight: 500;
   cursor: default;
+  font-family: 'Roboto', sans-serif;
 }
 
 html{
-    background-color: rgba(255, 255, 255, 1);
-      overflow-x: hidden;
-  
-    background: url(pik.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+  height: 100vh;
+  width: 100vw;
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+  background: url("background.jpg") no-repeat center center fixed; 
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#pikID{
+  width: 65vw;
+}
+
+#soon{  
+  margin-top: 20px;
+  font-size: 4.5vw;
+  font-style: italic;
+  font-weight: 600;
+}
